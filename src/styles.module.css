@@ -1,9 +1,112 @@
-/* add css module styles here (optional) */
 
-.test {
-  margin: 2em;
-  padding: 0.5em;
-  border: 2px solid #000;
-  font-size: 2em;
-  text-align: center;
+.wrapper {
+  min-height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  z-index: 100000;
+  overflow: hidden;
+  top: 0;
+  
+}
+
+.side_menu {
+  height: 100%;
+  width: 80%;
+  height: 100%;
+  background-color: white;
+  opacity: 1;
+  overflow: hidden;
+  position: relative;
+}
+
+.side_menu ul {
+  width: 100%;
+  font-family: 'Roboto', sans-serif;
+  margin: 10px 0 18px 0;
+  overflow: hidden;
+  padding: 0;
+  
+}
+
+.side_menu ul li {
+ 
+  width: 95%;
+  display: flex;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
+  overflow: hidden;
+  min-width:368.59px;
+  
+}
+
+
+
+.counter {
+  position: absolute;
+  right: 5px;
+}
+
+.side_menu ul li {
+  font-size: 1em;
+  height: 40px;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  cursor: pointer;
+  margin-top: 1.2rem;
+  text-transform: capitalize;
+}
+
+.side_menu ul li span {
+  margin-left: 1rem;
+  margin-right: 1rem ;
+  
+}
+
+.side_menu a {
+  text-decoration: none;
+  color: black;
+  
+}
+
+.list_heading {
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  margin-left: 20px;
+  min-width: 368px;
+}
+
+
+.item_container {
+  display: flex;
+  align-items: center;
+  
+}
+
+
+.switch {
+  border: 2px solid white;
+  position: absolute;
+  width: 50px;
+  height: 23px;
+  right: 5px;
+  top:2px;
+  border-radius: 40px;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  margin-bottom: 10px;
+  background-color: rgba(128, 128, 128, 0.5);
+  
+}
+
+.toggle {
+  border: 2px solid white;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  align-self: flex-start;
+ 
+  background-color: white;
 }
