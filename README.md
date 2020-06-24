@@ -133,15 +133,6 @@ if you still don't see it clear here is a image that will make you understand ev
 
 
 
-
-
-
-![Easy gif](https://media.giphy.com/media/3o7btNa0RUYa5E7iiQ/giphy.gif)
-
-
-
-
-
 ##### Gmail Example
 Okay so now that we saw what each atrribute does , I will let a example of one to do a clone of the gmail one:
 
@@ -333,11 +324,17 @@ const Gmail_Example = [
 You can use this as template and then change what you need
 
 
+
+![Easy gif](https://media.giphy.com/media/3o7btNa0RUYa5E7iiQ/giphy.gif)
+
+
+
+
 #### Step 2
 
 Now it's time to use our useMenu Hook
 
-Right before the Return statement of our App component we will desestructure the elements that useMenu return like this
+Right before the Return statement of our App component we will deconstruct the elements that useMenu return like this
 
 ```javascript
 const [isOpen , ToggleMenu , Theme , ToggleTheme] = useMenu()
